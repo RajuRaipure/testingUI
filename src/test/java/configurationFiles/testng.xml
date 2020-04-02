@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ChromeTEst">
+		<parameter name="browserName" value="chrome"></parameter>
+		<parameter name="url"
+			value="http://newtours.demoaut.com/"></parameter>
+		<classes>
+			<class name="src.test.java.com.test.testcase.TC_1test" />
+		</classes>
+	</test>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
